@@ -43,3 +43,20 @@ var swiper = new Swiper(".trending-content", {
     },
   });
   
+  function postComment() {
+    let commentInput = document.getElementById("commentInput");
+    let commentsList = document.getElementById("commentsList");
+
+    if (commentInput.value.trim() === "") {
+        alert("Comment cannot be empty!");
+        return;
+    }
+
+    let commentDiv = document.createElement("div");
+    commentDiv.classList.add("comment");
+    commentDiv.textContent = commentInput.value;
+    
+    commentsList.prepend(commentDiv);
+    
+    commentInput.value = ""; // Clear the input field after posting
+}

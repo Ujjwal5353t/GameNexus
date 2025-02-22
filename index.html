@@ -1,4 +1,5 @@
-/<!DOCTYPE html>
+/
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,8 +12,10 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- favicon -->
     <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
-<!-- swiper cssfile -->
-<link rel="stylesheet" href="swiper-bundle.min.css">
+    <!-- swiper cssfile -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="shortcut icon" href="Gn logo.png" type="image/x-icon">
+
 
 
 
@@ -23,14 +26,14 @@
 <body>
     <!-- scroll bar -->
     <div class="progress">
-        <div class="progress-bar" id="scroll-bar">     
+        <div class="progress-bar" id="scroll-bar">
         </div>
     </div>
     <header>
         <!-- nav -->
         <div class="container nav ">
             <!-- logo -->
-            <a href="index.html" class="logo">Gamer<span>Gateaway</span></a>
+            <a href="index.html" class="logo">Game<span>Nexus</span></a>
             <!-- nav icons -->
             <div class="nav-icons">
                 <i class='bx bx-bell bx-tada' id="bell-icon"><span></span></i>
@@ -43,9 +46,9 @@
             </div>
             <!-- menu -->
             <div class="menu">
-                <img src="img/menu.png" alt="loading"> 
+                <img src="img/menu.png" alt="loading">
                 <div class="navbar">
-                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#trending">Trending</a></li>
                     <li><a href="#new">New Game</a></li>
                     <li><a href="#contactUs">Contact Us</a></li>
@@ -54,11 +57,11 @@
             <!-- Notification -->
             <div class="notification">
                 <div class="notification-box">
-                    <i class='bx bxs-check-circle' ></i>
+                    <i class='bx bxs-check-circle'></i>
                     <p>Congratulation , Your game downloaded sucessfully.</p>
                 </div>
                 <div class="notification-box box-color">
-                    <i class='bx bxs-x-circle' ></i>
+                    <i class='bx bxs-x-circle'></i>
                     <p>Could not apply changes</p>
                 </div>
             </div>
@@ -72,121 +75,297 @@
         <div class="home-text">
             <h1>CITY OF THE <br> FUTURE</h1>
             <a href="#" class="btn">AVAILABLE NOW</a>
-        </div> 
+        </div>
     </section>
-   
+
     <!-- trending section -->
-<section class="trending container" id="trending">
-    <div class="heading">
-        <i class='bx bxs-flame' ></i>
-        <h2>Trending Games</h2>
-    </div>
-    <!-- content -->
-    <div class="trending-content swiper">
-        <div class="swiper-wrapper">
-            <!-- slide 1 -->
-            <div class="swiper-slide">
-                <div class="box">
-                    <img src="img/trending1.webp" alt="">
-                    <div class="box-text">
-                        <h2>Cyberpunk 2077</h2>
-                        <h3>Action</h3>
-                        <div class="rating-download">
-                            <div class="rating">
-                                <i class='bx bxs-star' ></i>
-                                <span>4.7</span>    
+    <section class="trending container" id="trending">
+        <div class="heading">
+            <i class='bx bxs-flame'></i>
+            <h2>Trending Games</h2>
+        </div>
+        <!-- content -->
+        <div class="trending-content swiper">
+            <div class="swiper-wrapper">
+                <!-- slide 1 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/trending1.webp" alt="">
+                        <div class="box-text">
+                            <h2>Cyberpunk 2077</h2>
+                            <h3>Action</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
                             </div>
-                            <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- slide 2 -->
-            <div class="swiper-slide">
-                <div class="box">
-                    <img src="img/trending8.png" alt="">
-                    <div class="box-text">
-                        <h2>Resident Evil 8:Village</h2>
-                        <h3>Survival Horror</h3>
-                        <div class="rating-download">
-                            <div class="rating">
-                                <i class='bx bxs-star' ></i>
-                                <span>4.8</span>    
+                <!-- slide 2 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/trending8.png" alt="">
+                        <div class="box-text">
+                            <h2>Resident Evil 8:Village</h2>
+                            <h3>Survival Horror</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.8</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
                             </div>
-                            <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- slide 3 -->
-            <div class="swiper-slide">
-                <div class="box">
-                    <img src="https://i.pinimg.com/564x/e2/e4/93/e2e493a4eb0213bb5969b5ced3b7d56a.jpg" alt="">
-                    <div class="box-text">
-                        <h2>Prince of Persia</h2>
-                        <h3>Action-Adventure</h3>
-                        <div class="rating-download">
-                            <div class="rating">
-                                <i class='bx bxs-star' ></i>
-                                <span>4.3</span>    
+                <!-- slide 3 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="https://i.pinimg.com/564x/e2/e4/93/e2e493a4eb0213bb5969b5ced3b7d56a.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Prince of Persia</h2>
+                            <h3>Action-Adventure</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.3</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
                             </div>
-                            <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
                         </div>
                     </div>
                 </div>
-            </div>
-             <!-- slide 4 -->
-             <div class="swiper-slide">
-                <div class="box">
-                    <img src="https://i.pinimg.com/564x/5a/59/cb/5a59cbcd013100462fd70a73b67ce9cf.jpg" alt="">
-                    <div class="box-text">
-                        <h2>Valorant</h2>
-                        <h3>FPA Shooter</h3>
-                        <div class="rating-download">
-                            <div class="rating">
-                                <i class='bx bxs-star' ></i>
-                                <span>4.7</span>    
+                <!-- slide 4 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="https://i.pinimg.com/564x/5a/59/cb/5a59cbcd013100462fd70a73b67ce9cf.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Valorant</h2>
+                            <h3>FPA Shooter</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
                             </div>
-                            <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- slide 5 -->
-            <div class="swiper-slide">
-                <div class="box">
-                    <img src="https://i.pinimg.com/236x/4c/94/b3/4c94b322b88866b428054484d84d1899.jpg" alt="">
-                    <div class="box-text">
-                        <h2>Call Of Duty</h2>
-                        <h3>First-Person Action</h3>
-                        <div class="rating-download">
-                            <div class="rating">
-                                <i class='bx bxs-star' ></i>
-                                <span>4.6</span>    
+                <!-- slide 5 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="https://i.pinimg.com/236x/4c/94/b3/4c94b322b88866b428054484d84d1899.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Call Of Duty</h2>
+                            <h3>First-Person Action</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.6</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
                             </div>
-                            <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- slide 6 -->
-            <div class="swiper-slide">
-                <div class="box">
-                    <img src="https://i.pinimg.com/564x/58/59/1c/58591c3e35d402efcc7f20196bc6f8f9.jpg" alt="">
-                    <div class="box-text">
-                        <h2>FIFA 24</h2>
-                        <h3>Sports</h3>
-                        <div class="rating-download">
-                            <div class="rating">
-                                <i class='bx bxs-star' ></i>
-                                <span>4.7</span>    
+                <!-- slide 6 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="https://i.pinimg.com/564x/58/59/1c/58591c3e35d402efcc7f20196bc6f8f9.jpg" alt="">
+                        <div class="box-text">
+                            <h2>FIFA 24</h2>
+                            <h3>Sports</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
                             </div>
-                            <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
                         </div>
                     </div>
                 </div>
+                <!-- slide 7 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/trending5.png" alt="">
+                        <div class="box-text">
+                            <h2>GTA V</h2>
+                            <h3>Action-Adventure</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.9</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide 8 -->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="https://i.pinimg.com/564x/c1/8d/66/c18d6660c62b6f22b7788d943aa5592f.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Elden Ring</h2>
+                            <h3>Action role-playing</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.1</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <!-- slide 7 -->
+        </div>
+    </section>
+
+    <!-- new section -->
+    <section class="new container" id="new">
+        <div class="heading">
+            <i class='bx bxs-game'></i>
+            <h2>New Games</h2>
+        </div>
+        <!-- content -->
+        <div class="new-content">
+            <!-- box 1 -->
+            <div class="box">
+                <img src="img/new1.jpg" alt="">
+                <div class="box-text">
+                    <h2>Subway Surfer</h2>
+                    <h3>Endless Runner</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.0</span>
+                        </div>
+                        <a href="download.html" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- box 2-->
+            <div class="box">
+                <img src="data:image/jpeg;base64,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"
+                    alt="">
+                <div class="box-text">
+                    <h2>Red Dead Redemption 2</h2>
+                    <h3>Open world</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.4</span>
+                        </div>
+                        <a href="download.html" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- box 6 -->
+            <div class="box">
+                <img src="img/new5.png" alt="">
+                <div class="box-text">
+                    <h2>Minecraft</h2>
+                    <h3>Sandbox</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.3</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- box 3-->
+            <div class="box">
+                <img src="img/trending6.jpg" alt="">
+                <div class="box-text">
+                    <h2>Dying Light 2</h2>
+                    <h3>Adventure</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.2</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- box 4 -->
+            <div class="box">
+                <img src="img/trending7.png" alt="">
+                <div class="box-text">
+                    <h2>Halo Infinite</h2>
+                    <h3>First-person Shooter</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.7</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- box 5-->
+            <div class="box">
+                <img src="img/trending3.jpg" alt="">
+                <div class="box-text">
+                    <h2>Assassin's Creed</h2>
+                    <h3>Action Adventure</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.4</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- box 7-->
+            <div class="box">
+                <img src="img/new4.jpg" alt="">
+                <div class="box-text">
+                    <h2>Clash Royal</h2>
+                    <h3>Action</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.5</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- box 8-->
+            <div class="box">
+                <img src="img/new3.jpg" alt="">
+                <div class="box-text">
+                    <h2>Free Guy</h2>
+                    <h3>RPG</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>4.6</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
+                    </div>
+                </div>
+            </div>
             <div class="swiper-slide">
                 <div class="box">
                     <img src="img/trending5.png" alt="">
@@ -195,230 +374,55 @@
                         <h3>Action-Adventure</h3>
                         <div class="rating-download">
                             <div class="rating">
-                                <i class='bx bxs-star' ></i>
-                                <span>4.9</span>    
+                                <i class='bx bxs-star'></i>
+                                <span>4.9</span>
                             </div>
-                            <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+                            <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- slide 8 -->
-            <div class="swiper-slide">
-                <div class="box">
-                    <img src="https://i.pinimg.com/564x/c1/8d/66/c18d6660c62b6f22b7788d943aa5592f.jpg" alt="">
-                    <div class="box-text">
-                        <h2>Elden Ring</h2>
-                        <h3>Action role-playing</h3>
-                        <div class="rating-download">
-                            <div class="rating">
-                                <i class='bx bxs-star' ></i>
-                                <span>4.1</span>    
-                            </div>
-                            <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-
         </div>
-    </div>
-</section>
-
-            <!-- new section -->
-            <section class="new container" id="new">
-                <div class="heading">
-                    <i class='bx bxs-game' ></i>
-                    <h2>New Games</h2>
-                </div>
-                <!-- content -->
-                <div class="new-content">
-                <!-- box 1 -->
-                    <div class="box">
-                        <img src="img/new1.jpg" alt="">
-                        <div class="box-text">
-                            <h2>Subway Surfer</h2>
-                            <h3>Endless Runner</h3>
-                            <div class="rating-download">
-                                <div class="rating">
-                                    <i class='bx bxs-star' ></i>
-                                    <span>4.0</span>    
-                                </div>
-                                <a href="download.html" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
-                            </div>
-                        </div>
-                    </div>
-                
-                <!-- box 2-->
-                    <div class="box">
-                        <img src="img/new7.png" alt="">
-                        <div class="box-text">
-                            <h2>Fortnight</h2>
-                            <h3>Survival</h3>
-                            <div class="rating-download">
-                                <div class="rating">
-                                    <i class='bx bxs-star' ></i>
-                                    <span>4.4</span>    
-                                </div>
-                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
-                            </div>
-                        </div>
-                    </div>
-                
-                <!-- box 6 -->
-                <div class="box">
-                    <img src="img/new5.png" alt="">
-                    <div class="box-text">
-                        <h2>Minecraft</h2>
-                        <h3>Sandbox</h3>
-                        <div class="rating-download">
-                            <div class="rating">
-                                <i class='bx bxs-star' ></i>
-                                <span>4.3</span>    
-                            </div>
-                            <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- box 3-->
-                    <div class="box">
-                        <img src="img/trending6.jpg" alt="">
-                        <div class="box-text">
-                            <h2>Dying Light 2</h2>
-                            <h3>Adventure</h3>
-                            <div class="rating-download">
-                                <div class="rating">
-                                    <i class='bx bxs-star' ></i>
-                                    <span>4.2</span>    
-                                </div>
-                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
-                            </div>
-                        </div>
-                    </div>
-            
-                <!-- box 4 -->
-                    <div class="box">
-                        <img src="img/trending7.png" alt="">
-                        <div class="box-text">
-                            <h2>Halo Infinite</h2>
-                            <h3>First-person Shooter</h3>
-                            <div class="rating-download">
-                                <div class="rating">
-                                    <i class='bx bxs-star' ></i>
-                                    <span>4.7</span>    
-                                </div>
-                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
-                            </div>
-                        </div>
-                    </div>
-                
-                <!-- box 5-->
-                    <div class="box">
-                        <img src="img/trending3.jpg" alt="">
-                        <div class="box-text">
-                            <h2>Assassin's Creed</h2>
-                            <h3>Action Adventure</h3>
-                            <div class="rating-download">
-                                <div class="rating">
-                                    <i class='bx bxs-star' ></i>
-                                    <span>4.4</span>    
-                                </div>
-                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
-                            </div>
-                        </div>
-                    </div>
-                
-                
-                <!-- box 7-->
-                    <div class="box">
-                        <img src="img/new4.jpg" alt="">
-                        <div class="box-text">
-                            <h2>Clash Royal</h2>
-                            <h3>Action</h3>
-                            <div class="rating-download">
-                                <div class="rating">
-                                    <i class='bx bxs-star' ></i>
-                                    <span>4.5</span>    
-                                </div>
-                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
-                            </div>
-                        </div>
-                    </div>
-            
-                <!-- box 8-->
-                    <div class="box">
-                        <img src="img/new3.jpg" alt="">
-                        <div class="box-text">
-                            <h2>Free Guy</h2>
-                            <h3>RPG</h3>
-                            <div class="rating-download">
-                                <div class="rating">
-                                    <i class='bx bxs-star' ></i>
-                                    <span>4.6</span>    
-                                </div>
-                                <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="box">
-                            <img src="img/trending5.png" alt="">
-                            <div class="box-text">
-                                <h2>GTA V</h2>
-                                <h3>Action-Adventure</h3>
-                                <div class="rating-download">
-                                    <div class="rating">
-                                        <i class='bx bxs-star' ></i>
-                                        <span>4.9</span>    
-                                    </div>
-                                    <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <div class="next-page">
+        <div class="next-page">
             <a href="#">Next Page</a>
         </div>
 
-        
-            </section>
 
-            <!-- new section end -->
-           
+    </section>
 
-            <section class="contact-section" id="ContactUs">
-                <div class="container">
-                    <h2>Contact Us</h2>
-                    <p>Have questions or feedback? Feel free to reach out to us!</p>
-                    <form class="contact-form">
-                        <input type="text" name="name" placeholder="Your Name">
-                        <input type="email" name="email" placeholder="Your Email">
-                        <textarea name="message" placeholder="Your Message"></textarea>
-                        <button type="submit">Send</button>
-                    </form>
-                </div>
-            </section>
+    <!-- new section end -->
 
-             <!-- copyright -->
-             <div class="copyright container">
-                <a href="#" class="logo">Game<span>Store</span></a>
-                <p> &#169; TheGameZone All Rights Reserved </p>
-                <p>Trademark and intellectual property rights information here.</p>
-            </div>
-            
-           
-            
-           
-    
+
+    <section class="contact-section" id="ContactUs">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? Feel free to reach out to us!</p>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- copyright -->
+    <div class="copyright container">
+        <a href="#" class="logo">Game<span>Nexus</span></a>
+        <p> &#169; GameNexus All Rights Reserved </p>
+        <p>Trademark and intellectual property rights information here.</p>
+    </div>
 
 
 
 
-<!-- link swiper js file -->
-<script src="swiper-bundle.min js.js"></script>
+
+
+
+
+
+    <!-- link swiper js file -->
+    <script src="swiper-bundle.min js.js"></script>
 
     <!-- link js -->
     <script src="script.js"></script>
